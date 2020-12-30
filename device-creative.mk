@@ -34,6 +34,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libGralloc4Wrapper
 
+# For Google Camera
+PRODUCT_COPY_FILES += \
+    device/google/raviole/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
+
 # Codec2
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.0.vendor \
