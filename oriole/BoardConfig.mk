@@ -28,3 +28,5 @@ include device/google/gs101/BoardConfig-common.mk
 include device/google/gs101/wifi/BoardConfig-wifi.mk
 -include vendor/google_devices/gs101/prebuilts/BoardConfigVendor.mk
 -include vendor/google_devices/oriole/proprietary/BoardConfigVendor.mk
+
+include device/google/raviole/oriole/BoardConfigCreative.mk
