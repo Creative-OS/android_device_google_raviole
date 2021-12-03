@@ -25,3 +25,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="oriole-user 13 TP1A.221105.002 9080065 release-keys"
 
 BUILD_FINGERPRINT := google/oriole/oriole:13/TP1A.221105.002/9080065:user/release-keys
+
+$(call inherit-product, vendor/google/oriole/oriole-vendor.mk)
