@@ -20,6 +20,9 @@ PRODUCT_NAME := creative_raven
 # Boot animation
 CREATIVE_BOOTANIMATION := 1440
 
+# Gapps
+CREATIVE_GAPPS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=raven \
     PRIVATE_BUILD_DESC="raven-user 13 TP1A.221105.002 9080065 release-keys"
