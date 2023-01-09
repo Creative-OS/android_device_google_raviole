@@ -57,6 +57,9 @@ TARGET_USE_PIXEL_FINGERPRINT := true
 # GMS build flags, if none were defined the package build type will be AOSP (default: false)
 WITH_GMS := true
 
+# NGA
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=oriole \
     PRIVATE_BUILD_DESC="oriole-user 13 TQ1A.230105.002 9325679 release-keys"
